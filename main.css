@@ -55,21 +55,30 @@
     font-variant-ligatures: normal;
     font-variant-numeric: normal;
     font-weight: 400;
+    outline: none;
 }
 
-#tw_i_1{
+.tw_i_1{
     display: block;
     width: 40px;
     height: 44px;
     position: relative;
     left: 496px;
     bottom: 21px;
+    opacity: 0.6;
+    cursor:pointer;
 }
-#keyb{
+.tw_i_1:hover{
+    opacity: 1;
+}
+}
+.keyb{
     width: 19px;
     height: 11px;
     
 }
+
+
 #tw_i_2{
     display: block;
     width: 40px;
@@ -77,6 +86,7 @@
     position: relative;
     left: 530px;
     bottom: 70px;
+    cursor:pointer;
 }
 #mic{
     width:23px;
