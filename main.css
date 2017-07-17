@@ -223,11 +223,14 @@ html{
 }
 /* Grid - Google Applications box*/
 
-#googleapplications{
-    display:none;
-    height: 50px;
-    width: 50px;
-    background-color: antiquewhite;
+#gogapp-container{
+    display: block;
+    height: 498px;
+    width: 322px;
+    position: absolute;
+    top: 44px;
+    right: 25px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.27);
     
 }
 #grid-btn{
@@ -238,6 +241,17 @@ html{
     width:30px;
     opacity:0;
     
+}
+#gogapp-main{
+    height:456px;
+    width:320px;
+    background-color: #fff;
+    margin-left:1px;
+}
+#gogapp-bottom{
+    height: 42px;
+    width: 322px;
+    background-color: rgb(245,245,245);
 }
 /* Footer*/
 
