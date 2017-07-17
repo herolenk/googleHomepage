@@ -103,3 +103,22 @@
     position: relative;
     top: 18px;
 }
+#firstbtn{
+    border: 1px solid #f2f2f2;
+    height: 36px;
+    width: 122.33px;
+    position: relative;
+    top: 11px;
+    left: 119.445px;
+    border-width: 0px;
+}
+#secondbtn{
+    border: 1px solid #f2f2f2;
+    width: 216.78px;
+    height: 36px;
+    margin: 0 auto;
+    position: relative;
+    top: 11px;
+    left: 119.445px;
+    border-width: 0px;
+}
