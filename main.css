@@ -224,7 +224,7 @@ html{
 /* Grid - Google Applications box*/
 
 #gogapp-container{
-    display: block;
+    display: none;
     height: 498px;
     width: 322px;
     position: absolute;
@@ -242,6 +242,21 @@ html{
     opacity:0;
     
 }
+#gogapp-head{
+    position: absolute;
+    top:-7.3px;
+    left: 211px;
+    background-color: rgb(255,255,255);
+    border: solid #e8e2e2;
+    border-width: 0 1.3px 1.3px 0;
+    display:inline-block;
+    padding:4.4px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    
+    
+    
+}
 #gogapp-main{
     height:456px;
     width:320px;
@@ -252,6 +267,16 @@ html{
     height: 42px;
     width: 322px;
     background-color: rgb(245,245,245);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #737373;
+    text-align:center;
+    line-height: 39px;
+}
+#gogapp-bottom a{
+    opacity: 0.75;
+    text-decoration: none;
+    color: inherit;
 }
 /* Footer*/
 
