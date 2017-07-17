@@ -121,3 +121,8 @@
     color: #222;
     
 }
+footer{
+    background-color: rgb(242, 242, 242);
+    background-size: cover;
+    height: 40px;
+}
