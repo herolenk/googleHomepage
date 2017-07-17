@@ -3,6 +3,10 @@
 *{
     box-sizing: border-box;
 }
+
+html{
+    height: 100%;
+}
 .content{
     margin:0 auto;
     height: 650px;
@@ -218,13 +222,41 @@
 }
 
 
+/* Footer*/
 
-/*
-footer{
-    
+
+.footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
     height: 40px;
     background-color: rgb(242, 242, 242);
     background-size: cover;
-    margin:0;
+    color: #666;
+    font-family: arial, sans-serif;
+    font-size: small;
+    
 }
-*/
+.footer ul li{
+    display:inline;
+    padding-left: 27px;
+    cursor: pointer;
+    
+}
+.footer ul li:hover{
+    text-decoration: underline;
+}
+.footer ul li:active{
+    color:#dd4b39;
+}
+#l_list{
+    position:absolute;
+    left: 30px;
+    top:12px;
+}
+#r_list{
+    position:absolute;
+    right: 30px;
+    top:12px;
+}
