@@ -221,8 +221,24 @@ html{
     cursor: pointer;
     
 }
+/* Grid - Google Applications box*/
 
-
+#googleapplications{
+    display:none;
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    
+}
+#grid-btn{
+    position: absolute;
+    top:0;
+    left:  164px;
+    height: 30px;
+    width:30px;
+    opacity:0;
+    
+}
 /* Footer*/
 
 
