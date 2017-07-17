@@ -219,6 +219,7 @@ html {
 }
 
 /* Grid - Google Applications box*/
+
 .gogapp-container {
     height: 498px;
     width: 322px;
@@ -226,6 +227,7 @@ html {
     top: 44px;
     right: 25px;
     box-shadow: 0 0 9px rgba(0, 0, 0, 0.27);
+    
 }
 #gogapp-container {
     display: none;
@@ -264,6 +266,7 @@ html {
     position: relative;
     left: 25px;
     top: 22px;
+    cursor: pointer;
 }
 .app {
     height: 64px;
