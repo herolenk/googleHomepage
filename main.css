@@ -26,12 +26,12 @@
     right: 80px;
 }
 .search-container{
-    background-color: maroon;
+    background-color: #fff;
     margin: 0 auto;
     width: 632px;
 }
 .search-materials{
-    background-color:blueviolet;
+    background-color: #fff;
     width: 488px;
     height: 44px;
 }
@@ -41,4 +41,17 @@
     position: relative;
     top: 5px;
     left: 14px;
+}
+#tw_i_1{
+    display: block;
+    width: 40px;
+    height: 44px;
+    position: relative;
+    left: 490px;
+    bottom: 21px;
+}
+#keyb{
+    width: 19px;
+    height: 11px;
+    
 }
