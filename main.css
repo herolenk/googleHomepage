@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .content{
     margin:0 auto;
     background-color:antiquewhite;
@@ -13,4 +16,29 @@
     position: relative;
     top: 110px;
     left: 352px;
+}
+.search-area{
+    background-color: aquamarine;
+    width: 1140px;
+    height: 130px;
+    position: relative;
+    top: 130px;
+    right: 80px;
+}
+.search-container{
+    background-color: maroon;
+    margin: 0 auto;
+    width: 632px;
+}
+.search-materials{
+    background-color:blueviolet;
+    width: 488px;
+    height: 44px;
+}
+#search-input{
+    width:463px;
+    height: 34px;
+    position: relative;
+    top: 5px;
+    left: 14px;
 }
