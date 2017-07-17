@@ -125,6 +125,55 @@
     color: #222;
     
 }
+/* Menu*/
+#menu{
+    background-color: burlywood;
+    width: 311.7px;
+    height: 30px;
+    position:absolute;
+    top: 20px;
+    left: 1600px;
+}
+.nav{
+
+}
+.nav li{
+    display:inline-block;
+    text-align: center;
+    font-size: 13px;
+    font-style: arial, sans-serif;
+    color: #000;
+}
+#grid,#notif{
+    background-image: url("Images/i1_1967ca6a.png");
+    height: 30px;
+    width: 30px;
+}
+#gmail{
+    height:33.95px;
+    width:24px;
+}
+#picture{
+    height:52.75px;
+    width:24px;
+}
+#grid{
+    background-position: -132px -38px;
+}
+#notif{
+    background-position: -189px -21px;
+}
+#photo{
+    background-color:crimson;
+    height: 32px;
+    width: 32px;
+    border-radius: 15px;
+    position:relative;
+    left: 135px;
+}
+
+
+
 /*
 footer{
     
