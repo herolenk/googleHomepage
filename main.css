@@ -230,7 +230,7 @@ html{
     position: absolute;
     top: 44px;
     right: 25px;
-    box-shadow: 0 0 3px rgba(0,0,0,0.27);
+    box-shadow: 0 0 9px rgba(0,0,0,0.27);
     
 }
 #grid-btn{
@@ -268,7 +268,6 @@ html{
     width: 88px;
     height: 100px;
     display: inline-block;
-    background-color: antiquewhite;
     position: relative;
     left: 25px;
     top: 22px;
@@ -276,6 +275,10 @@ html{
 .app{
     height:64px;
     width:64px;
+    background-image: url("Images/p1_77114190.png");
+    margin-left: 13px; 
+    margin-top: 9px;
+    opacity: 0.83;
 }
 #item1{
     
@@ -286,20 +289,25 @@ html{
     position: absolute;
     font-family: arial, sans-serif;
     font-size: 13px;
-}
-#hesabım{
-    top:76px;
-    right: -16px;
+    text-align: center;
+    top: 76px;
     opacity: 0.8;
+
 }
-#hesabım-back{
-    background-image: url("Images/p1_77114190.png");
-    background-position: 0 -2139px;
-    margin-left: 13px; 
-    margin-top: 9px;
-    opacity: 0.83;
-    
-}
+
+#app1-back{background-position: 0 -2139px;}
+#app2-back{background-position: 0 -828px;}
+#app3-back{background-position: 0 -414px;}
+#app4-back{background-position: 0 -1242px;}
+#app5-back{background-position: 0 -1173px;}
+#app6-back{background-position: 0 -759px;}
+#app7-back{background-position: 0 -1656px;}
+#app8-back{background-position: 0 -621px;}
+#app9-back{background-position: 0 -1794px;}
+#app10-back{background-position: 0 -345px;}
+#app11-back{background-position: 0 -1035px;}
+#app12-back{background-position: 0 -690px;}
+
 #gogapp-bottom{
     height: 42px;
     width: 322px;
