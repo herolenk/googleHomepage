@@ -224,7 +224,7 @@ html{
 /* Grid - Google Applications box*/
 
 #gogapp-container{
-    display: none;
+    display: block;
     height: 498px;
     width: 322px;
     position: absolute;
@@ -262,6 +262,43 @@ html{
     width:320px;
     background-color: #fff;
     margin-left:1px;
+}
+#gogapp-main li{
+    list-style: none;
+    width: 88px;
+    height: 100px;
+    display: inline-block;
+    background-color: antiquewhite;
+    position: relative;
+    left: 25px;
+    top: 22px;
+}
+.app{
+    height:64px;
+    width:64px;
+}
+#item1{
+    
+}
+.app-name{
+    width: 84px;
+    height: 20px;
+    position: absolute;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+#hesabım{
+    top:76px;
+    right: -16px;
+    opacity: 0.8;
+}
+#hesabım-back{
+    background-image: url("Images/p1_77114190.png");
+    background-position: 0 -2139px;
+    margin-left: 13px; 
+    margin-top: 9px;
+    opacity: 0.83;
+    
 }
 #gogapp-bottom{
     height: 42px;
