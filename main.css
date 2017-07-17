@@ -162,6 +162,15 @@
 }
 #notif{
     background-position: -189px -21px;
+    position:relative;
+    left: 125px;
+    z-index: 2;
+}
+#notif-back{
+    height: 30px;
+    width:30px;
+    background-color: green;
+    z-index: 1;
 }
 #photo{
     background-color:crimson;
