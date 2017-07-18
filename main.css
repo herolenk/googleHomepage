@@ -11,14 +11,16 @@ html {
     height: 650px;
     width: 980px;
     margin-top: 90px;
+    position: relative;
+    right: 8px;
 }
 
 #logo img {
     height: 92px;
     width: 272px;
     position: relative;
-    top: 110px;
-    left: 352px;
+    top: 108px;
+    left: 362px;
 }
 
 .search-area {
@@ -65,16 +67,10 @@ html {
     width: 40px;
     height: 44px;
     position: relative;
-    left: 496px;
-    bottom: 21px;
-    opacity: 0.6;
+    left: 506px;
+    bottom: 20px;
     cursor: pointer;
 }
-
-.tw_i_1:hover {
-    opacity: 1;
-}
-
 
 }
 .keyb {
@@ -86,21 +82,22 @@ html {
     width: 40px;
     height: 44px;
     position: relative;
-    left: 530px;
-    bottom: 70px;
+    left: 544px;
+    bottom: 68px;
     cursor: pointer;
 }
 #mic {
-    width: 23px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
 }
 #search-whole-box {
     background-color: #fff;
-    width: 571px;
+    width: 584px;
     height: 44px;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.27);
     position: relative;
-    left: 7px;
+    left: 14px;
+    top: 2.3px;
 }
 #search-whole-box:hover {
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.43);
@@ -109,13 +106,14 @@ html {
     height: 76px;
     width: 571px;
     position: relative;
-    left: 279px;
+    left: 288px;
 }
 #buttons-whole-box {
     height: 58px;
     width: 571px;
     position: relative;
     top: 18px;
+    right: 1.24px;
 }
 .mainbtn {
     height: 36px;
@@ -133,7 +131,7 @@ html {
     
 }
 #secondbtn {
-    margin-left: 5px;
+    margin-left: 4.2px;
     width: 216.78px;
 }
 #firstbtn:hover,
@@ -176,23 +174,23 @@ html {
     height: 33.95px;
     width: 24px;
     position: relative;
-    left: 50px;
-    bottom: 12px;
+    left: 45px;
+    bottom: 13px;
     opacity: 0.75;
 }
 #picture {
     height: 52.75px;
     width: 24px;
     position: relative;
-    left: 73px;
-    bottom: 12px;
+    left: 66px;
+    bottom: 13px;
     opacity: 0.75;
 }
 #grid {
     background-image: url("Images/i1_1967ca6a.png");
     background-position: -132px -38px;
     position: relative;
-    left: 110px;
+    left: 106px;
     bottom: 2px;
     opacity: 0.55;
 }
@@ -202,7 +200,7 @@ html {
     background-color: rgba(0, 0, 0, 0.55);
     border-radius: 50%;
     position: relative;
-    left: 120px;
+    left: 122px;
     bottom: 7px;
 }
 #notif:hover {
@@ -219,7 +217,8 @@ html {
     width: 32px;
     border-radius: 50%;
     position: relative;
-    left: 135px;
+    left: 137px;
+    bottom: 1px;
     cursor: pointer;
 }
 
@@ -237,7 +236,7 @@ html {
 #grid-btn {
     position: absolute;
     top: 0;
-    left: 164px;
+    left: 162px;
     height: 30px;
     width: 30px;
     opacity: 0;
