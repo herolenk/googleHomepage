@@ -1,4 +1,10 @@
-document.getElementById("grid-btn").onclick = function(){
-    document.getElementById("gogapp-container").style.display = "block"
+function main() {
+    $('.gogapp-container').hide();
+    
+    $('#grid-btn').on('click', function(){
+        $('.gogapp-container').toggle();
+    });
+
 }
+$(document).ready(main);
 

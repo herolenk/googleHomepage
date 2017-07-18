@@ -232,11 +232,8 @@ html {
     top: 44px;
     right: 25px;
     box-shadow: 0 0 9px rgba(0, 0, 0, 0.27);
-    
 }
-#gogapp-container {
-    display: none;
-}
+
 #grid-btn {
     position: absolute;
     top: 0;
